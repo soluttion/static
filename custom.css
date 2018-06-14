@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700'); @import url('https://fonts.googleapis.com/css?family=PT+Serif'); * {
+    font-family: "Ubuntu", sans-serif;
+}
+.vitrine {
+    clear: both;
+}
+
+
+
+.vitrine > h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 1.85em;
+}
+
+.vitrine > p {
+    font-size: 1.3em;
+}
+
+.vitrine .content {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 190px;
+    position: relative;
+}
+
+
+.vitrine .content h3 {
+    font-weight: 700;
+}
+
+
+.vitrine ul.productReview {
+    float: left;
+    width: 100%;
+}
+
+.vitrine ul.productReview li {
+    line-height: 14px;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.vitrine ul.productReview li small {
+    display: block;
+    font-weight: 200;
+}
+
+.vitrine .purchase .product-price {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vitrine .purchase .product-price-by {
+    color: #0b5e2b;
+    display: block;
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 1.25em;
+}
+
+.vitrine .purchase .product-price-by-plots {
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+
+.vitrine li {
+    line-height: 30px;
+}
+
+.vitrine label {
+    cursor: pointer;
+    font-weight: 100;
+    line-height: 65px;
+}
+
+.vitrine input[type=radio] {
+    display: none;
+}
+
+.vitrine input[type=radio] + span {
+    display: block;
+    position: relative;
+    z-index: 999
+}
+
+.vitrine input[type=radio] + span .icone-configurador {
+    display: block;
+    float: left;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.vitrine input[type=radio] + span:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    border: solid 2px;
+    margin-right: 5px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.vitrine input[type=radio]:checked + span:before {
+    content: "	\2611";
+    color: #0b5e2b;
+}
+
